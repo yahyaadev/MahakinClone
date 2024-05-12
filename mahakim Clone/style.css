@@ -1,0 +1,991 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Flow+Rounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: maroc-font;
+    src: url(fonts/arabswell_1.ttf);
+}
+@font-face {
+    font-family: testsohne-font;
+    src: url(fonts/TestSöhne-Kräftig.otf);
+}
+@font-face {
+    font-family: arb-font1;
+    src: url(fonts/ArbFONTS-Droid-Arabic-Kufi-Bold.ttf);
+}
+@font-face {
+    font-family: arb-font2;
+    src: url(fonts/ArbFONTS-Droid-Arabic-Kufi.ttf);
+}
+@font-face {
+    font-family: arb-font3;
+    src: url(fonts/ArbFONTS-Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf);
+}
+@font-face {
+    font-family: arb-font4;
+    src: url(fonts/ArbFONTS-Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+@font-face {
+    font-family: arb-font5;
+    src: url(fonts/ArbFONTS-Droid\ Arabic\ Kufi.ttf);
+}
+@font-face {
+    font-family: arb-fon6;
+    src: url(fonts/ArbFONTS-Droid\ Arabic\ Kufi\ Bold.ttf);
+}
+@font-face {
+    font-family: arb-font7;
+    src: url(fonts/ArbFONTS-DroidKufi-Bold.ttf);
+}
+@font-face {
+    font-family: arb-font8;
+    src: url(fonts/ArbFONTS-DroidKufi-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body  {
+    background-color: #fff;
+}
+
+::selection {
+    background-color: #273d52;
+    color: #fff;
+}
+
+header {
+    padding-top: 5px;
+    height: 80px;
+}
+header nav {
+    display: flex;
+}
+header nav img {
+    position: absolute;
+    margin-top: 5px;
+    height: 64.3906px;
+    width: 129.991px;
+    margin-left: 107rem;
+    cursor: default;
+}
+header nav h3 {
+    position: absolute;
+    font-size: 25px;
+    font-family: maroc-font;
+    color: #003566;
+    margin-top: 5px;
+    margin-left: 48rem;
+    cursor: default;
+}
+header nav h3 span {
+    text-align: center;
+    color: #FFBC2B;
+}
+header nav .left-nav-text {
+    position: absolute;
+    font-family: 'cairo';
+    color: #003566;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 7px;
+    margin-left: 4rem;
+}
+
+.second-nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 57px;
+    background-color: #003566;
+    z-index: 1000;
+}
+.second-nav ul {
+    display: flex;
+    padding-top: 12px;
+    width: 100%;
+    direction: rtl;
+    gap: 20px;
+}
+.second-nav ul i {
+    color: #003566;
+    font-size: 30px;
+    padding: 5px 3px;
+    border-radius: 3px;
+    line-height: 24px;
+    margin-left: rem;
+    margin-right: 6rem;
+    background-color: #FFBC2B;
+    cursor: pointer;
+}
+.second-nav ul li {
+    list-style: none;
+}
+.second-nav ul li a {
+    font-family: 'cairo';
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.second-nav ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 3px;
+    background-color: #FFBC2B;
+    display: none;
+}
+.second-nav ul li a:hover::before {
+    display: block;
+}
+.second-nav ul li a:focus::before {
+    display: block;
+}
+
+
+.hero-section .top-sec {
+    height: 210px;
+    width: 1803px;
+    background-color: #EDF3F5;
+    margin-top: 1rem;
+    margin-left: 60px;
+}
+.hero-section .top-sec h4 {
+    position: absolute;
+    font-family: arb-font2;
+    font-size: 16px;
+    color: #FFBC2B;
+    margin-top: 20px;
+    margin-left: 50rem;
+}
+.hero-section .top-sec h2 {
+    position: absolute;
+    font-family: arb-font2;
+    font-size: 32px;
+    color: #003566;
+    margin-top: 35px;
+    margin-left: 45.5rem;
+}
+.hero-section .top-sec .p1 {
+    position: absolute;
+    font-family: arb-font2, testsohne-font;
+    font-size: 16px;
+    line-height: 24px;
+    direction: rtl;
+    color: #003566;
+    padding-top: 6rem;
+    padding-left: 36rem;
+}
+.hero-section .top-sec .p1 span {
+    color: #FFBC2B;
+    font-weight: 700;
+}
+.hero-section .top-sec .p2 {
+    position: absolute;
+    font-family: arb-font2, testsohne-font;
+    font-size: 16px;
+    line-height: 24px;
+    direction: rtl;
+    color: #003566;
+    padding-top: 7.7rem;
+    padding-left: 46.5rem;
+}
+.hero-section .top-sec .p2 span {
+    color: #FFBC2B;
+    font-weight: 700;
+}
+.circles {
+    margin-left: 15px;
+}
+.circle1 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #003566;
+    margin-top: 10rem;
+    margin-left: 48.7rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.circle1:active {
+    box-shadow: 0px 0px 2px 3px #0084ff65;
+}
+.circle2 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin-top: 10rem;
+    margin-left: 51rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.circle2:hover {
+    background-color: #003566;
+    box-shadow: 0px 0px 2px 3px #0084ff65;
+}
+.circle3 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin-top: 10rem;
+    margin-left: 53.5rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.circle3:hover {
+    background-color: #003566;
+    box-shadow: 0px 0px 2px 3px #0084ff65;
+}
+.hero-section .top-sec form input {
+    position: absolute;
+    font-family: arb-font2, testsohne-font;
+    margin-top: 11.7rem;
+    margin-left: 38.6rem;
+}
+.hero-section .top-sec form .text {
+    width: 430px;
+    height: 50px;
+    direction: rtl;
+    color: #121213;
+    font-size: 17px;
+    padding-left: 160px;
+    outline: none;
+    border-radius: 50px;
+    padding-right: 10px;
+    border: none;
+    box-shadow: 0px 0px 40px 10px rgba(50, 71, 92, 0.1);
+}
+.hero-section .top-sec form .text::placeholder {
+    color: #507d99;
+}
+.hero-section .top-sec form .submit {
+    width: 100px;
+    height: 38px;
+    margin-top: 12rem;
+    border: none;
+    margin-left: 39.3rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    background-color: #FFBC2B;
+    padding: 6px 1px 10px 15px ;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.hero-section .top-sec  #search-icon {
+    position: absolute;
+    font-weight: 800;
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 12.5rem;
+    margin-left: 40.1rem;
+    cursor: pointer;
+}
+.hero-section .top-sec form .submit:hover {
+    background-color: #003566;
+}
+.hero-section .top-sec form .submit:focus {
+    box-shadow: 0px 0px 2px 2px #ffff,
+                0px 0px 3px 2px #0084ff;
+}
+.line1 {
+    position: absolute;
+    font-family: 'Flow Rounded';
+    color: #003566;
+    margin-top: 3.6rem;
+    margin-left: 61rem;
+}
+.line2 {
+    position: absolute;
+    font-family: 'Flow Rounded';
+    color: #003566;
+    margin-top: 3.6rem;
+    margin-left: 36rem;
+}
+
+
+
+.cards1 {
+    display: flex;
+    gap: 20px;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+.cards1 .cards-content1 #card1 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards1 .cards-content1 #card1 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards1 .cards-content1 #card1 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 35px;
+    cursor: default;
+}
+.cards1 .cards-content2 #card2 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards1 .cards-content2 #card2 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards1 .cards-content2 #card2 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 35px;
+    cursor: default;
+}
+.cards1 .cards-content3 #card3 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards1 .cards-content3 #card3 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards1 .cards-content3 #card3 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    width: 300px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 20px;
+    cursor: default;
+}
+.cards1 .cards-content3 #card3 .h3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 70px;
+    cursor: default;
+}
+.cards1 .cards-content4 #card4 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards1 .cards-content4 #card4 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards1 .cards-content4 #card4 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 75px;
+    cursor: default;
+}
+
+
+.cards2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+.cards2 .cards-content1 #card1 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards2 .cards-content1 #card1 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards2 .cards-content1 #card1 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 35px;
+    cursor: default;
+}
+.cards2 .cards-content1 #card1 .h3-2 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 90px;
+    cursor: default;
+}
+.cards2 .cards-content2 #card2 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards2 .cards-content2 #card2 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards2 .cards-content2 #card2 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 35px;
+    cursor: default;
+}
+.cards2 .cards-content2 #card2 .h3-2 {
+    position: absolute;
+    margin-top: 96px;
+    margin-left: 30px;
+    cursor: default;
+}
+.cards2 .cards-content3 #card3 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards2 .cards-content3 #card3 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards2 .cards-content3 #card3 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 35px;
+    cursor: default;
+}
+.cards2 .cards-content4 #card4 {
+    height: 250px;
+    width: 281px;
+    background-color: #EDF3F5;
+}
+.cards2 .cards-content4 #card4 i {
+    position: absolute;
+    font-size: 44px;
+    margin-top: 15px;
+    margin-left: 7rem;
+    color: #003566;
+}
+.cards2 .cards-content4 #card4 h3 {
+    font-family: arb-font2;
+    font-size: 21px;
+    color: #003566;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 55px;
+    cursor: default;
+}
+
+.hero-section button {
+    position: absolute;
+    font-family: arb-font2;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #003566;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 14rem;
+    margin-left: -14.7rem;
+    transition: all 0.3s ease;
+}
+.hero-section button:hover {
+    box-shadow: 0px 5px 10px #0000003a;
+}
+
+
+
+.second-sec {
+}
+.second-sec .show-more {
+    position: absolute;
+    font-family: arb-font2;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #003566;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 11rem;
+    margin-left: 53rem;
+    transition: all 0.2s ease;
+}
+.second-sec .show-more:hover {
+    color: #003566;
+    background-color: #FFBC2B;
+}
+.second-sec .second-sec-top .second-sec-top-intro {
+    position: absolute;
+    height: 319.5px;
+    width: 1803px;
+    background-color: #EDF3F5;
+    margin-top: 17em;
+    margin-left: 60px;
+    z-index: -2;
+}
+.second-sec .second-sec-top img {
+    height: 489.188px;
+    width: 1296px;
+    margin-top: 28rem;
+    margin-left: 20rem;
+    filter: brightness(90%);
+}
+/*.second-sec .second-sec-top .play-btn i::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}*/
+.second-sec .second-sec-top .playbtn {
+    margin-top: -10px;
+    margin-left: 11px;
+}
+.second-sec .second-sec-top .play-btn i {
+    position: absolute;
+    color: #FFBC2B;
+    font-size: 50px;
+    background-color: #003566;
+    padding: 10px 10px 10px 15px;
+    margin-top: -17rem;
+    margin-left: 58rem;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+    z-index: 20;
+}
+.second-sec .second-sec-top .play-btn i:hover {
+    background-color: #0084ff;
+}
+.second-sec .second-sec-top .play-btn-back {
+    position: absolute;
+    margin-top: -17.8rem;
+    margin-left: 57.2rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fcfcfc7a;
+}
+.second-sec .second-sec-top h3 {
+    position: absolute;
+    color: #003566;
+    font-size: 27px;
+    margin-top: 20rem;
+    margin-left: 33rem;
+    font-family: arb-font2;
+}
+.second-sec .second-sec-top h3 span {
+    color: #FFBC2B;
+}
+.second-sec .second-sec-top p {
+    position: absolute;
+    color: #003566;
+    font-size: 20px;
+    margin-top: 23rem;
+    margin-left: 27rem;
+    font-family: arb-font2, testsohne-font;
+    direction: ltr;
+}
+.second-sec .second-sec-top p span {
+    color: #FFBC2B;
+}
+
+.second-sec .get-app img {
+    margin-top: 30px;
+    margin-left: 14rem;
+}
+.second-sec .get-app h3 {
+    font-family: arb-font2, testsohne-font;
+    margin-left: 20rem;
+}
+.second-sec .get-app #h31 {
+    position: absolute;
+    color: #003566;
+    font-size: 23.5px;
+    margin-top: -27rem;
+    margin-left: 70rem;
+    direction: rtl;
+}
+.second-sec .get-app #h31 span {
+    color: #FFBC2B;
+}
+.second-sec .get-app #h32 {
+    position: absolute;
+    color: #003566;
+    font-size: 25px;
+    margin-top: -25rem;
+    margin-left: 68.5rem;
+    direction: rtl;
+}
+.second-sec .get-app #h33 {
+    position: absolute;
+    color: #003566;
+    font-size: 23.5px;
+    margin-top: -22.5rem;
+    margin-left: 70.5rem;
+    direction: rtl;
+}
+.second-sec .get-app #h33 span {
+    color: #FFBC2B;
+}
+.second-sec .get-app .get-app-from-gg-play {
+    position: absolute;
+    display: flex;
+    color: #fff;
+    padding: 5px 20px 45px 20px;
+    background-color: #003566;
+    border-radius: 5px;
+    margin-top: -17rem;
+    margin-left: 67rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.second-sec .get-app .get-app-from-gg-play:hover {
+    background-color: #FFBC2B;
+}
+.second-sec .get-app .get-app-from-gg-play #logo {
+    position: absolute;
+    color: #ffffff;
+    margin-top: 7px;
+    font-size: 50px;
+}
+.second-sec .get-app .get-app-from-gg-play #get {
+    font-family: arb-font2;
+    color: #6B8AA6;
+    font-size: 16px;
+    margin-left: 4rem;
+}
+.second-sec .get-app .get-app-from-gg-play #from {
+    position: absolute;
+    color: rgb(255, 253, 253);
+    font-family: testsohne-font;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.second-sec .get-app .get-app-from-app-store {
+    position: absolute;
+    display: flex;
+    color: #fff;
+    padding: 5px 20px 45px 20px;
+    background-color: #003566;
+    border-radius: 5px;
+    margin-top: -17rem;
+    margin-left: 81rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.second-sec .get-app .get-app-from-app-store:hover {
+    background-color: #FFBC2B;
+}
+.second-sec .get-app .get-app-from-app-store #logo {
+    position: absolute;
+    color: #ffffff;
+    margin-top: 7px;
+    font-size: 50px;
+}
+.second-sec .get-app .get-app-from-app-store #get {
+    font-family: arb-font2;
+    color: #6B8AA6;
+    font-size: 16px;
+    margin-left: 4rem;
+}
+.second-sec .get-app .get-app-from-app-store #from {
+    position: absolute;
+    color: rgb(255, 253, 253);
+    font-family: testsohne-font;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+
+.accordion {
+    width: 600px;
+    margin: 0px 40rem;
+    display: flex;
+    flex-direction: column;
+}
+#accordion1 {
+    position: absolute;
+    width: 600px;
+    margin-left: 20rem;
+}
+#accordion2 {
+    position: absolute;
+    width: 600px;
+    margin-left: -20rem;
+}
+#accordion3 {
+    position: absolute;
+    width: 600px;
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+#accordion4 {
+    position: absolute;
+    width: 600px;
+    margin-top: 10rem;
+    margin-left: -20rem;
+}
+.accordion .accordion-item {
+    background-color: #fff;
+    color: #003566;
+    font-weight: 600;
+    font-family: arb-font2;
+    margin: 1rem 0;
+    padding: 3px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    margin-left: 3rem;
+    width: 100%;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.accordion-item-header::after {
+    content: "+";
+    font-size: 28px;
+    position: absolute;
+    right: 39rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: #003566;
+}
+.accordion-item-header.active::after {
+    content: "-";
+    font-size: 28px;
+}
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition:  max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+    padding: 1rem;
+    direction: rtl;
+    line-height: 1.5rem;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, transparent ,#008f86, #fae042, transparent) 1;
+}
+/*.accordion-item-header.active + .accordion-item-body  {
+    max-height: 1000px;
+}*/
+
+.btn .show-all-faq {
+    position: absolute;
+    font-family: arb-font2;
+    border: 1px solid #003566;
+    font-size: 16px;
+    color: #003566;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 23rem;
+    margin-left: 53rem;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.btn .show-all-faq:hover {
+    color: #003566;
+    border: 1px solid #FFBC2B;
+    background-color: #FFBC2B;
+}
+.btn .btn-a {
+    height: 1px;
+}
+
+
+
+footer {
+    background-color: #003566;
+    font-family: arb-font2, testsohne-font;
+    height: 345.156px;
+    width: 100%;
+    padding: 35px 50px 10px 50px;
+    margin-top: 33rem;
+    display: flex;
+    direction: rtl;
+    gap: 130px;
+}
+/*-----------------------Call info------------------------*/
+footer .call-info {
+    margin-right: 5rem;
+}
+footer .call-info .content {
+    margin-top: 1.4rem;
+}
+footer .call-info h2 {
+    color: #fff;
+    cursor: default;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .call-info .position img {
+    width: 46px;
+}
+footer .call-info span {
+    position: absolute;
+    cursor:  default;
+    color: #FDC30B;
+    margin-top: -4px;
+    margin-right: 20px;
+}
+footer .call-info h3 {
+    position: absolute;
+    font-size: 16px;
+    cursor:  default;
+    line-height: 24px;
+    margin-top: -30px;
+    margin-right: 65px;
+    font-weight: 500;
+    color: #fff;
+}
+footer .call-info .phone {
+    margin-top: 10px;
+}
+footer .call-info .phone img {
+    width: 46px;
+}
+footer .call-info .phone h3 {
+    direction: ltr;
+    font-family: "Roboto";
+    cursor:  default;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/*-----------------------Wizara info------------------------*/
+footer .wizara-info {
+    margin-right: 19rem;
+}
+footer .wizara-info h2 {
+    color: #fff;
+    cursor: default;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .wizara-info img {
+    cursor: pointer;
+}
+/*-----------------------Majlis info------------------------*/
+footer .majlis-info {
+    position: absolute;
+    margin-right: 55rem;
+}
+footer .majlis-info h2 {
+    color: #fff;
+    cursor: default;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .majlis-info .majlis-img img {
+    width: 150px;
+    cursor: pointer;
+}
+/*-----------------------Ri2asa info------------------------*/
+footer .ri2asa-info {
+    margin-right: 22rem;
+}
+footer .ri2asa-info h2 {
+    color: #fff;
+    cursor: default;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .ri2asa-info .ri2asa-img #niaba1-img {
+    width: 59px;
+    cursor: pointer;
+}
+footer .ri2asa-info .ri2asa-img #niaba2-img {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 4px;
+    width: 107px;
+    cursor: pointer;
+}
+/*-----------------------aadala info------------------------*/
+footer .aadala-info {
+    margin-right: 3rem;
+}
+footer .aadala-info h2 {
+    color: #fff;
+    cursor: default;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .aadala-info img {
+    cursor: pointer;
+}
+/*-----------------------Copyright footer------------------------*/
+footer .end-of-footer {
+    color: #fff;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 17rem;
+    font-size: 13px;
+    margin-right: 49rem;
+    cursor: default;
+}
+footer .end-of-footer span {
+    color: #FFBC2B;
+    cursor: pointer;
+}
